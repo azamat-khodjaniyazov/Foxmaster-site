@@ -1,1 +1,6 @@
-index.html
+---
+layout: index
+lang: ru-RU
+title: Foxmaster
+excerpt: Foxmaster
+---
