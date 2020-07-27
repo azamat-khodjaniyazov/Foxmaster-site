@@ -1,10 +1,1 @@
-dig whois.jehy.ru +nostats +nocomments +nocmd                 
-
-; <<>> DiG 9.11.3-1ubuntu1.2-Ubuntu <<>> whois.jehy.ru +nostats +nocomments +nocmd 
-;; global options: +cmd 
-;whois.jehy.ru.                 IN      A 
-whois.jehy.ru.          6984    IN      CNAME   jehy.github.io. 
-jehy.github.io.         3384    IN      A       185.199.108.153 
-jehy.github.io.         3384    IN      A       185.199.110.153 
-jehy.github.io.         3384    IN      A       185.199.109.153 
-jehy.github.io.         3384    IN      A       185.199.111.153
+www.example.com   CNAME   foxmaster.github.io
