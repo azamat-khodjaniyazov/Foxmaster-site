@@ -235,6 +235,8 @@ ol li {
 
 .language a {
   margin-left: 7px;
+right: 360px;
+  top: 15px;	
 }
 
 .language img {
@@ -546,6 +548,11 @@ footer h1 {
   }
 }
 
+@media only screen and (max-width: 1077px) {
+  .bounce:nth-child(3) {
+  padding-bottom: 118px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -629,7 +636,10 @@ footer h1 {
       body.menu-is-active .menu-trigger {
         display: none;
       }
-
+.language {
+        right: 100px;
+        top: 20px;
+      }
 }
 
 @media only screen and (max-width: 560px) {
