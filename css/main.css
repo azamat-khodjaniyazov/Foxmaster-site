@@ -229,8 +229,9 @@ ol li {
 
 .language {
   position: absolute;
-  right: 90px;
-  top: 60px;
+  right: 360px;
+  top: 15px;
+
 }
 
 .language a {
@@ -540,8 +541,16 @@ footer h1 {
     font-size: 30px;
     line-height: 35px;
   }
+.bounce:nth-child(3) {
+  padding-bottom: 118px;
+}
 }
 
+@media only screen and (max-width: 1077px) {
+  .bounce:nth-child(3) {
+  padding-bottom: 118px;
+  }
+}
 
 @media only screen and (max-width: 768px) {
 
@@ -625,7 +634,10 @@ footer h1 {
       body.menu-is-active .menu-trigger {
         display: none;
       }
-
+	.language {
+        right: 100px;
+        top: 20px;
+      }
 }
 
 @media only screen and (max-width: 560px) {
