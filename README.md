@@ -1,1 +1,1 @@
-# www.foxmaster.cf
+# foxmaster.netlify.app
